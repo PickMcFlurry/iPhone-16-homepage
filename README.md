@@ -2,6 +2,8 @@
 
 A stunning, interactive 3D website showcasing the iPhone 16 with smooth animations, video carousels, and immersive 3D models. Built with React, Three.js, and GSAP for premium user experience.
 
+## Live Demo
+- For live demo go to https://iphone-16-demo.netlify.app/
 
 ## ✨ Features
 
