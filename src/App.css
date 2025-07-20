@@ -1,0 +1,173 @@
+.custom-gradient {
+  background-image: linear-gradient(
+    180deg,
+    rgb(12, 18, 71),
+    rgb(40, 51, 125) 28%,
+    rgb(80, 93, 173) 46%,
+    rgb(125, 142, 209) 60%,
+    rgb(174, 188, 230) 75%,
+    rgb(239, 236, 255) 90%,
+    rgb(255, 255, 255)
+  );
+}
+.pink-gradient {
+  background: linear-gradient(rgb(255, 255, 255) 30%, rgb(242, 208, 230));
+  overflow: hidden;
+  height: 772px;
+}
+
+.purple-gradient {
+  background-image: linear-gradient(0deg, #211b2a, rgba(33, 27, 42, 0) 60%);
+}
+
+canvas {
+  touch-action: none;
+}
+
+.title-text {
+  @apply font-sf-pro text-black text-[55px] font-semibold;
+}
+.link {
+  @apply text-blue hover:underline cursor-pointer flex items-center text-[16px] opacity-0 translate-y-20;
+}
+.screen-max-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1316px;
+}
+.common-padding {
+  @apply py-[95px] px-5;
+}
+.common-paddings {
+  @apply pt-[95px] pb-[160px] px-5;
+}
+.video-carousel_container {
+  @apply relative sm:w-[1316px] w-[88vw] md:h-[751px] sm:h-[50vh] h-[35vh];
+}
+.flex-center {
+  @apply flex items-center justify-center;
+}
+.control-btn {
+  @apply mr-4 p-4 rounded-full bg-custom-black backdrop-blur flex-center;
+}
+.size-btn {
+  @apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all;
+}
+.color-container {
+  @apply flex items-center justify-center px-4 py-4 rounded-full bg-gray-300 backdrop-blur;
+}
+
+.size-btn-container {
+  @apply flex items-center justify-center p-1 rounded-full bg-gray-300 backdrop-blur ml-3 gap-1;
+}
+
+.section-background {
+  background: linear-gradient(
+    180deg,
+    rgb(245, 245, 247) 81%,
+    rgb(255, 255, 255)
+  );
+}
+.strong-text {
+  @apply font-medium text-[#1d1d1f];
+}
+
+.h3-style {
+  @apply font-medium text-[48px] font-sf-pro tracking-[-0.003em] leading-[1.0834933333] text-center;
+}
+.p-style {
+  @apply font-medium text-text-gray text-[17px] leading-[1.4705882353] tracking-[-0.022em] font-sf-pro;
+}
+.h1-style {
+  @apply font-medium text-[80px] tracking-[-0.2px] leading-[84px] font-sf-pro;
+}
+.gray-bg {
+  @apply bg-[#f1f3fb];
+}
+.text-size {
+  @apply text-[21px] text-text-gray font-sf-pro font-medium;
+}
+
+.m-text-size {
+  @apply text-[19px] font-sf-pro font-medium leading-[23px];
+}
+
+.min-width {
+  @apply w-[87%] m-[auto];
+}
+.half-hidden-left {
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+  /* Add vertical positioning as needed */
+  top: 50%;
+  transform: translateX(-20%) translateY(-50%); /* Centers vertically too */
+}
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #007aff 0%,
+    #5856d6 25%,
+    #af52de 50%,
+    #ff2d92 75%,
+    #d5800a 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.p-text-size {
+  @apply text-[21px] text-dark-gray font-sf-pro font-medium leading-[29px] tracking-[.011em];
+}
+
+.secondary-p-text {
+  @apply font-medium text-[17px] leading-[1.4705882353] tracking-[-0.022em] font-sf-pro;
+}
+
+.new-span {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  display: block;
+  margin: 4px 0;
+}
+.new-p {
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.teal-gradient {
+  background-image: linear-gradient(
+    0deg,
+    rgba(78, 148, 159, 0.2) 0%,
+    rgba(78, 148, 159, 0) 20%
+  );
+  overflow: hidden;
+}
+.p-text-size-gray {
+  @apply text-[21px] text-text-gray font-sf-pro font-medium leading-[29px] tracking-[.011em];
+}
+.battery-border {
+  box-shadow: 0 50px 55px rgba(0, 0, 0, 0.1);
+}
+.new-span-b {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.margin-l {
+  margin-left: 7rem;
+}
+.padding-l {
+  padding-left: 7rem;
+}
