@@ -83,6 +83,9 @@ public/
 
 ## 🎯 Customization
 
+###Fonts
+The projects uses Apple's SF PRO font
+
 ### Colors
 The project uses a custom color palette defined in `tailwind.config.js`:
 
