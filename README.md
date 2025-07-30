@@ -27,7 +27,7 @@ A stunning, interactive 3D website showcasing the iPhone 16 with smooth animatio
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 src/
 ├── assets/
 │   ├── components/          # React components
@@ -50,7 +50,7 @@ src/
 
 public/
 └── models/                 # 3D model files (.glb)
-\`\`\`
+```
 
 ## 🎨 Key Components
 
