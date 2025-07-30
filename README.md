@@ -89,7 +89,7 @@ The projects uses Apple's SF PRO font
 ### Colors
 The project uses a custom color palette defined in `tailwind.config.js`:
 
-\`\`\`javascript
+```javascript
 colors: {
   blue: "#2997FF",
   "custom-gray": "#AEB1C3",
@@ -98,12 +98,12 @@ colors: {
   "custom-pink": "#D464AE",
   // ... more colors
 }
-\`\`\`
+```
 
 ### 3D Models
 To customize iPhone colors, modify the color arrays in `src/assets/constrant/index.js`:
 
-\`\`\`javascript
+```javascript
 export const models = [
   {
     id: 1,
@@ -112,7 +112,7 @@ export const models = [
   },
   // more color variants
 ];
-\`\`\`
+```
 
 ### Animations
 GSAP animations can be customized in individual components. Key animation utilities are in `src/assets/utils/Animation.js`.
